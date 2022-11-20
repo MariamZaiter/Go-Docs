@@ -1,0 +1,87 @@
+.hero .image img {
+  width: 350px;
+  vertical-align: middle;
+}
+.section .card {
+  position: relative;
+  transition: all 0.3s;
+}
+.section .card i {
+  position: absolute;
+  color: #ff0043;
+  font-size: 50px !important;
+  top: 10%;
+  left: 10%;
+}
+.section .card h2 {
+  font-size: 20px;
+}
+.section .card:hover {
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 25%),
+    0 0 0 1px rgb(10 10 10 / 7%);
+  cursor: pointer;
+  transform: translate(5%, -10%);
+}
+.section .container .column button {
+  color: white;
+  transition: 0.3s;
+}
+.section .container .column button:hover {
+  background-color: #99012a !important;
+}
+footer a {
+  color: #333;
+}
+footer .column {
+  position: relative;
+  height: 125px;
+  width: 100%;
+}
+footer img {
+  position: absolute;
+}
+footer i {
+  color: #ff0043;
+}
+/*footer p {
+  width: 400px;
+  margin-left: calc((100% - 400px) / 2);
+}*/
+section .new {
+  position: relative;
+}
+.new button {
+  position: absolute;
+  top: 49%;
+  right: 0%;
+  color: white;
+}
+.new button:hover {
+  background-color: white !important;
+  color: #ff0043 !important;
+}
+.new input {
+  height: 50px;
+}
+.navbar-end .buttons .is-white {
+  color: #ff0043;
+  transition: 0.3s;
+}
+.navbar-end .buttons .is-white:hover {
+  background-color: #ff0043;
+  color: white;
+}
+
+.navbar-end .buttons .is-normal {
+  color: white;
+  transition: 0.3s;
+  background-color: #ff0043;
+}
+.navbar-end .buttons .is-normal:hover {
+  background-color: white;
+  color: #ff0043;
+}
+nav .navbar {
+  position: sticky !important;
+  top: 0 !important;
+}
